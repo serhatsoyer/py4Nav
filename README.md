@@ -4,6 +4,7 @@
 ### Intro
 - This repo is for my personal study of some navigation concepts
 - Jupyter Notebooks have some markdown cells which contain explanations in LaTeX which are sometimes rendered incorrectly by GitHub. So, it is sometimes better to study locally
+- Examples in this repo are not ordered
 - All code and all examples are prone to all kinds of errors
 - Any corrections, suggestions, improvements, etc. are welcome
 
@@ -16,13 +17,13 @@
     - Chain of rotations
     - Rotate vectors
     - Conversion among *quat*, *matrix*, *rotvec*, *euler* representations of rotations
-    - Estimate the rotation between vectors using *align_vectors*
+    - Estimate the rotation between vectors
     - Magnitude of a rotation
 - [/topics/scipy_spatial_transform/slerp.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/scipy_spatial_transform/slerp.ipynb) using [*scipy.spatial.transform.Slerp*](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Slerp.html)
     - Interpolation and/or resampling of rotations
 - [/topics/sensor_characterization/allan.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/sensor_characterization/allan.ipynb) using [*allantools*](https://pypi.org/project/AllanTools/)
     - Read real sensor data from an iPhone7 using [*pandas*](https://pandas.pydata.org)
-    - Plot gyro and accelerometer allan deviation curves
+    - Plot gyro and accelerometer Allan deviation curves
 
 ### To Do List
 - Compare the results with the indicated values from datasheets for [/topics/sensor_characterization/allan.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/sensor_characterization/allan.ipynb)
@@ -35,8 +36,8 @@
 - Study and demonstrate unscented KF basics
 
 ### My Other Study Repos
-- [py4DSP: DSP code on Python](https://github.com/serhatsoyer/py4DSP)
-- [py4ML: ML code on Python](https://github.com/serhatsoyer/py4ML)
-- [py4Me: Daily code on Python](https://github.com/serhatsoyer/py4Me)
+- [py4ML: ML code in Python](https://github.com/serhatsoyer/py4ML)
+- [py4DSP: DSP code in Python](https://github.com/serhatsoyer/py4DSP)
+- [py4Me: Daily code in Python](https://github.com/serhatsoyer/py4Me)
 
 Written by [*serhatsoyer*](https://github.com/serhatsoyer)
