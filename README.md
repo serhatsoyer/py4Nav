@@ -31,6 +31,7 @@
     - Try to find the iPhone7 or a similar smartphone's IMU specs
     - Study ARW and VRW units
     - Convert the units correctly
+- Write a kinematics equations notebook
 - Study and demonstrate KF basics. Find a popular and stable library if any exists. Implement yourself otherwise
 - Study and demonstrate extended KF basics
 - Study and demonstrate unscented KF basics
