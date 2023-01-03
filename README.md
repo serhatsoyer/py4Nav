@@ -24,6 +24,8 @@
 - [/topics/sensor_characterization/allan.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/sensor_characterization/allan.ipynb) using [*allantools*](https://pypi.org/project/AllanTools/)
     - Read real sensor data from an iPhone7 using [*pandas*](https://pandas.pydata.org)
     - Plot gyro and accelerometer Allan deviation curves
+- [/topics/kinematics/kinematics.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/kinematics/kinematics.ipynb)
+    - Some kinematics equations from [Principles of GNSS, Inertial, and Multisensor Integrated Navigation Systems, Second Edition - Paul Groves](https://ieeexplore.ieee.org/document/9101092)
 
 ### To Do List
 - Compare the results with the indicated values from datasheets for [/topics/sensor_characterization/allan.ipynb](https://github.com/serhatsoyer/py4Nav/blob/main/topics/sensor_characterization/allan.ipynb)
@@ -31,7 +33,6 @@
     - Try to find the iPhone7 or a similar smartphone's IMU specs
     - Study ARW and VRW units
     - Convert the units correctly
-- Write a kinematics equations notebook
 - Study and demonstrate KF basics. Find a popular and stable library if any exists. Implement yourself otherwise
 - Study and demonstrate extended KF basics
 - Study and demonstrate unscented KF basics
